@@ -4,26 +4,36 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jumpForce = 8f;
-    
-    Rigidbody2D rb;
-    
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float speed = 3f; // скорость движения
+    [SerializeField] private float jumpForce = 10f; // сила прыжка
+
+    private Rigidbody2D rb;
+    private SpriteRenderer sprite;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    
 
-    // Update is called once per frame
-    void Update()
+
+    private void FixedUpdate()
     {
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
 
+        sprite.flipX = movement < 0 ? true : false;
+    }
 
-        if(Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.05f)
-        rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-       
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.05f)
+            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+    }
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 }
