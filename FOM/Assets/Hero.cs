@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public float speed = 7f;
-    public float jumpForce = 5f;
+    public float speed = 5f;
+    public float jumpForce = 8f;
     
     Rigidbody2D rb;
     
@@ -22,7 +22,7 @@ public class Hero : MonoBehaviour
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
 
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.05f)
         rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
        
     }
