@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    [SerializeField] float speed = 3f;
+    [SerializeField] float speed = 7f;
     [SerializeField] int lives = 5;
-    [SerializeField] float jumpForce = 1.4f;
+    [SerializeField] float jumpForce = 10f;
     bool Ground = false;
 
     Rigidbody2D rb;
