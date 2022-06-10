@@ -1,1 +1,3 @@
-#делаем игру 
+#create hitbox
+#can walk 
+#can jump
