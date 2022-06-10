@@ -2022,7 +2022,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-<<<<<<< HEAD
 --- !u!1 &2108532224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,5 +2133,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> 3bba1184cbe9a162314394a8fdb42a8c76d3b9c0
