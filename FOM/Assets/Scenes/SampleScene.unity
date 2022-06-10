@@ -1314,6 +1314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+<<<<<<< HEAD
   jumpForce: 11
 --- !u!1 &1979092618
 GameObject:
@@ -1426,3 +1427,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  jumpForce: 10
+>>>>>>> 58f22afebf49aee2b32cb69464c096d08e06a025
