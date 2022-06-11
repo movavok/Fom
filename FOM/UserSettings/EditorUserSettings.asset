@@ -6,65 +6,13 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of bf13c63 (error2)
-=======
->>>>>>> parent of bf13c63 (error2)
-=======
->>>>>>> parent of bf13c63 (error2)
-=======
->>>>>>> parent of dc7db52 (error)
       value: 500005520602590a0f5a582045770844174f49722e7d7461287e1e6ae4b96c39
->>>>>>> parent of bf13c63 (error2)
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
-<<<<<<< HEAD
-=======
-      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
-=======
-      value: 500005520602590a0f5a582045770844174f49722e7d7461287e1e6ae4b96c39
->>>>>>> b49de03595849fccd3ee0d9a9ecf17fc7863906a
->>>>>>> c20820d54594ff818d42eb09499cae1785721f04
-=======
-      value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
->>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
-=======
->>>>>>> parent of dc7db52 (error)
-=======
-      value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 500005520602590a0f5a582045770844174f49722e7d7461287e1e6ae4b96c39
->>>>>>> parent of 3678f65 (cube)
-=======
-      value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
->>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
-=======
-      value: 0006070006035002550a542011760c44104f4e2e2e7f71602e704a67b0b6606d
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
->>>>>>> parent of ed0123a (..)
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 500005520602590a0f5a582045770844174f49722e7d7461287e1e6ae4b96c39
+      value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
