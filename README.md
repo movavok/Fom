@@ -1,4 +1,2 @@
-#create hitbox
-#can walk 
-#can jump
-#make menu
+#сделать timeLaps(начальная сцена с магом)
+#сделать нехт сцену(в пещере)
