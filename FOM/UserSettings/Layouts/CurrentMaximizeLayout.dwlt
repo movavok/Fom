@@ -75,6 +75,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 9733
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 21858
 >>>>>>> parent of ed0123a (..)
+=======
+  controlID: 2050
+>>>>>>> parent of d29a805 (hit box woodman)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,6 +157,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bf13c63 (error2)
 =======
@@ -163,6 +168,10 @@ MonoBehaviour:
 >>>>>>> parent of bf13c63 (error2)
     x: 290.6
     y: 19
+=======
+    x: 289.6
+    y: 73.6
+>>>>>>> parent of d29a805 (hit box woodman)
     width: 881.2001
     height: 411
 <<<<<<< HEAD
@@ -532,6 +541,7 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 9734
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,6 +592,9 @@ MonoBehaviour:
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of ed0123a (..)
+=======
+  controlID: 2301
+>>>>>>> parent of d29a805 (hit box woodman)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -623,7 +636,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 6385
+=======
+  controlID: 2302
+>>>>>>> parent of d29a805 (hit box woodman)
 --- !u!114 &5
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,8 +739,8 @@ MonoBehaviour:
 >>>>>>> parent of bf13c63 (error2)
     width: 289.6
     height: 432
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
 =======
 =======
@@ -848,6 +865,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 1a9affff5e9affffb49affff089bffff589bffffa89bffff089cffffbaa1ffff22a3ffffe8a3ffff8ea4ffff52a5ffffa6a5ffff46a7ffff9aa7fffff8aaffff7eacffff4cb3ffffaac1fffffac1ffff4ac2ffff96c2ffffbcc3ffff16b000005ab10000
 =======
       m_ExpandedIDs: 4c82ffff9e82ffff2684ffff8889ffffa089ffff1e8cffffc08cffff0c8dffffc08dffff128effff668efffffc8fffff6691fffff892ffff4a93ffff6897ffff709fffff6aa4ffffc8a4ffff0aa5ffff50a5ffff92a5ffffeca5ffff2ea6ffff88a6ffffcea6ffff10a7ffff5aa7ffffd4a7ffff34acffffacb3ffffe4b4ffff08b6ffff56b9ffff12beffff4cbeffff08c0ffff38c0ffff7ac0ffffe2c0ffff2cc2ffff6ec2ffffa2c2ffffd2c2ffff0ac3ffff3ec3ffff6ec3ffffa2c3ffffdac3ffff0cc4ffff40c4ffff56c5ffff9ac5ffffdcc5ffff0ec6ffff24c7ffff68c8ffff16caffff4acaffffc4caffff06ccffff50cdffffe0ceffffb4cfffffe8cfffff20d0ffff50d0ffff7ad0ffff62d1ffff9cd1ffffccd1ffff96d2ffffd0d2ffff08d3ffff40d3ffff74d3ffffacd3ffffdcd3ffff12d4ffff64dcffffa6dcffff28ddffff6addffff44e2ffff8ae2ffffa6e4ffffe8e4ffff2ee5ffffa4e5fffff0e5ffff4ee9ffff90e9ffffd2e9ffff1ceaffffa6eaffff10ebffff92ebffff18ecffff58ecffffceefffff0ef0ffff50f0ffff94f0ffff70f1ffffd4f3ffff62f6ffffcef9ffff2efbfffff8830000c0870000ec870000e8c800004ec90000
@@ -879,6 +897,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 4c82ffff9e82ffff2684ffff8889ffffa089ffff1e8cffffc08cffff0c8dffffc08dffff128effff668efffffc8fffff6691fffff892ffff4a93ffff6897ffff709fffff6aa4ffffc8a4ffff0aa5ffff50a5ffff92a5ffffeca5ffff2ea6ffff88a6ffffcea6ffff10a7ffff5aa7ffffd4a7ffff34acffffacb3ffffe4b4ffff08b6ffff56b9ffff12beffff4cbeffff08c0ffff38c0ffff7ac0ffffe2c0ffff2cc2ffff6ec2ffffa2c2ffffd2c2ffff0ac3ffff3ec3ffff6ec3ffffa2c3ffffdac3ffff0cc4ffff40c4ffff56c5ffff9ac5ffffdcc5ffff0ec6ffff24c7ffff68c8ffff16caffff4acaffffc4caffff06ccffff50cdffffe0ceffffb4cfffffe8cfffff20d0ffff50d0ffff7ad0ffff62d1ffff9cd1ffffccd1ffff96d2ffffd0d2ffff08d3ffff40d3ffff74d3ffffacd3ffffdcd3ffff12d4ffff64dcffffa6dcffff28ddffff6addffff44e2ffff8ae2ffffa6e4ffffe8e4ffff2ee5ffffa4e5fffff0e5ffff4ee9ffff90e9ffffd2e9ffff1ceaffffa6eaffff10ebffff92ebffff18ecffff58ecffffceefffff0ef0ffff50f0ffff94f0ffff70f1ffffd4f3ffff62f6ffffcef9ffff2efbfffff8830000c0870000ec870000e8c800004ec90000
 >>>>>>> parent of ed0123a (..)
+=======
+      m_ExpandedIDs: aac1fffffac1ffff4ac2ffff96c2ffffbcc3ffff
+>>>>>>> parent of d29a805 (hit box woodman)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Canvas
@@ -950,6 +971,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     x: 342
     y: 0
@@ -998,6 +1020,9 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
   m_LastSelected: 0
+=======
+  m_LastSelected: 2
+>>>>>>> parent of d29a805 (hit box woodman)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1310,6 +1335,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.12162998, y: -2.764786, z: 0.7669749}
     speed: 2
     m_Value: {x: 0.12162998, y: -2.764786, z: 0.7669749}
@@ -1358,6 +1384,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 1.8998593, y: 2.6445029, z: 1.2253587}
 >>>>>>> parent of ed0123a (..)
+=======
+    m_Target: {x: 0.81181514, y: -3.4691992, z: 0.769208}
+    speed: 2
+    m_Value: {x: 0.81181514, y: -3.4691992, z: 0.769208}
+>>>>>>> parent of d29a805 (hit box woodman)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1417,6 +1448,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 4.853913
     speed: 2
     m_Value: 4.853913
@@ -1465,6 +1497,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 7.425351
 >>>>>>> parent of ed0123a (..)
+=======
+    m_Target: 4.6305876
+    speed: 2
+    m_Value: 4.6305876
+>>>>>>> parent of d29a805 (hit box woodman)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1762,13 +1799,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\Fom\FOM
   m_LockTracker:
@@ -1785,12 +1822,17 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 10950000
     m_LastClickedID: 38160
 =======
     m_SelectedIDs: 12950000
     m_LastClickedID: 38162
 >>>>>>> parent of dc7db52 (error)
+=======
+    m_SelectedIDs: 10950000
+    m_LastClickedID: 38160
+>>>>>>> parent of d29a805 (hit box woodman)
     m_ExpandedIDs: 000000000e95000000ca9a3bffffff7f
 =======
     m_SelectedIDs: cc600000
@@ -1898,6 +1940,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 8499ffff
     m_LastClickedInstanceID: -26236
 =======
@@ -1937,6 +1980,10 @@ MonoBehaviour:
     m_SelectedInstanceIDs: b8a1ffff
     m_LastClickedInstanceID: -24136
 <<<<<<< HEAD
+=======
+    m_SelectedInstanceIDs: b2b9ffff
+    m_LastClickedInstanceID: -17998
+>>>>>>> parent of d29a805 (hit box woodman)
     m_HadKeyboardFocusLastEvent: 0
 >>>>>>> parent of dc7db52 (error)
 =======
@@ -2292,6 +2339,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -26236
 =======
   m_LastInspectedObjectInstanceID: -32258
@@ -2323,6 +2371,9 @@ MonoBehaviour:
 =======
   m_LastInspectedObjectInstanceID: -32258
 >>>>>>> parent of ed0123a (..)
+=======
+  m_LastInspectedObjectInstanceID: -17998
+>>>>>>> parent of d29a805 (hit box woodman)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
