@@ -719,6 +719,7 @@ GameObject:
   - component: {fileID: 1590158009}
   - component: {fileID: 1590158008}
   - component: {fileID: 1590158007}
+  - component: {fileID: 1590158010}
   m_Layer: 0
   m_Name: bober
   m_TagString: Untagged
@@ -996,6 +997,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1387172, y: 0.32793012}
   m_EdgeRadius: 0
+--- !u!95 &1590158010
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590157999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f7bc8ebf62d0cbb4ca2601dd3c5d9641, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1750959741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,6 +1186,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1088256280694182266, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088256280694182271, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088256280694182271, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+      propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
