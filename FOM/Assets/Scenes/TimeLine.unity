@@ -974,6 +974,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088256279439184972, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088256279439184972, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
       propertyPath: m_Name
       value: 'woodman '
@@ -1393,6 +1401,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02913a9a26c6b3348b2b1838af214681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< HEAD
   player: {fileID: 560532228}
 --- !u!114 &545688060
 MonoBehaviour:
@@ -1406,6 +1416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcac421e2f0c1114b9a0917200244795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  player: {fileID: 560532228}
+>>>>>>> parent of b49de03 (ht 2)
 --- !u!1 &560532228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
@@ -1450,6 +1463,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 560532228}
+<<<<<<< HEAD
+=======
+  player: {fileID: 1088256280811554662}
+>>>>>>> b49de03595849fccd3ee0d9a9ecf17fc7863906a
+=======
+>>>>>>> parent of b49de03 (ht 2)
 --- !u!1 &587908474
 GameObject:
   m_ObjectHideFlags: 0
