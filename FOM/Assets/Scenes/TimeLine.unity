@@ -1310,6 +1310,7 @@ GameObject:
   - component: {fileID: 545688057}
   - component: {fileID: 545688056}
   - component: {fileID: 545688059}
+  - component: {fileID: 545688060}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1398,8 +1399,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
   player: {fileID: 560532228}
+<<<<<<< HEAD
 =======
   player: {fileID: 560532228}
+=======
+>>>>>>> parent of bf13c63 (error2)
 --- !u!114 &545688060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1412,7 +1416,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcac421e2f0c1114b9a0917200244795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of bf13c63 (error2)
 --- !u!1 &560532228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
@@ -2311,7 +2318,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'next lvl
+  m_Text: 'nextlvl
 
 '
 --- !u!222 &948724093
@@ -5835,6 +5842,7 @@ GameObject:
   - component: {fileID: 2044638297}
   - component: {fileID: 2044638296}
   - component: {fileID: 2044638295}
+  - component: {fileID: 2044638299}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5925,6 +5933,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2044638299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044638294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcac421e2f0c1114b9a0917200244795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2056877827
 GameObject:
   m_ObjectHideFlags: 0
