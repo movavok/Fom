@@ -814,7 +814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590157999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.14, y: -2.98, z: 0.18674767}
+  m_LocalPosition: {x: -6.14, y: -3.26, z: 0.18674767}
   m_LocalScale: {x: 0.36906987, y: 0.36906987, z: 0.36906987}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1149,6 +1149,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293260046705018799, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586860555000904763, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586860555000904763, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586860555000904763, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
+      propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6586860555000904901, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
