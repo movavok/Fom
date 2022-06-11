@@ -967,6 +967,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
 --- !u!1001 &419501587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -974,14 +979,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1088256279439184972, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 1088256279439184972, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.02
-      objectReference: {fileID: 0}
     - target: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
       propertyPath: m_Name
       value: 'woodman '
@@ -1032,6 +1029,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
 --- !u!1 &429246808
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,14 +1401,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02913a9a26c6b3348b2b1838af214681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 560532228}
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
->>>>>>> parent of b49de03 (ht 2)
   player: {fileID: 560532228}
 =======
-  player: {fileID: 560532228}
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
 --- !u!114 &545688060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,10 +1429,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcac421e2f0c1114b9a0917200244795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
-  player: {fileID: 560532228}
->>>>>>> parent of b49de03 (ht 2)
->>>>>>> 62cbdd506c1cb9d4495be175d90ee015a34dc868
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of bf13c63 (error2)
+=======
+>>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
 --- !u!1 &560532228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
@@ -1469,11 +1492,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 560532228}
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
   player: {fileID: 1088256280811554662}
 >>>>>>> b49de03595849fccd3ee0d9a9ecf17fc7863906a
 =======
->>>>>>> parent of b49de03 (ht 2)
+>>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+  player: {fileID: 1088256280811554662}
+>>>>>>> parent of dc7db52 (error)
+=======
+>>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
 --- !u!1 &587908474
 GameObject:
   m_ObjectHideFlags: 0

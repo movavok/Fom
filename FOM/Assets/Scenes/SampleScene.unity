@@ -428,7 +428,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02913a9a26c6b3348b2b1838af214681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1959178294}
 --- !u!1 &609104926
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +719,6 @@ GameObject:
   - component: {fileID: 1590158009}
   - component: {fileID: 1590158008}
   - component: {fileID: 1590158007}
-  - component: {fileID: 1590158010}
   m_Layer: 0
   m_Name: bober
   m_TagString: Untagged
@@ -997,26 +996,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1387172, y: 0.32793012}
   m_EdgeRadius: 0
---- !u!95 &1590158010
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590157999}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f7bc8ebf62d0cbb4ca2601dd3c5d9641, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1750959741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1107,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1959178294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
+  m_PrefabInstance: {fileID: 1088256280496955715}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1088256280496955715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1141,7 +1125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1088256280694182266, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1088256280694182266, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
       propertyPath: m_LocalPosition.x
