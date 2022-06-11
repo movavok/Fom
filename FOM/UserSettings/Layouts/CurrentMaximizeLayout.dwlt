@@ -22,6 +22,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 13}
 =======
   - {fileID: 14}
@@ -44,6 +45,9 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+  - {fileID: 14}
+>>>>>>> parent of ed0123a (..)
   m_Position:
     serializedVersion: 2
     x: 0
@@ -90,9 +94,10 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
     width: 1366
-    height: 644
+    height: 635
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
+<<<<<<< HEAD
   vertical: 1
   controlID: 27851
 <<<<<<< HEAD
@@ -116,6 +121,10 @@ MonoBehaviour:
 >>>>>>> parent of 3678f65 (cube)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+  vertical: 0
+  controlID: 21858
+>>>>>>> parent of ed0123a (..)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,6 +181,7 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
     x: 0
+<<<<<<< HEAD
     y: 399
     width: 872
     height: 234
@@ -190,6 +200,11 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    y: 452
+    width: 1178
+    height: 235
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -202,6 +217,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +251,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 379, y: 213}
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+  m_TargetSize: {x: 380, y: 214}
+>>>>>>> parent of ed0123a (..)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -249,6 +268,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,10 +294,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
     m_HBaseRangeMin: -190
     m_HBaseRangeMax: 190
     m_VBaseRangeMin: -107
     m_VBaseRangeMax: 107
+<<<<<<< HEAD
 >>>>>>> parent of ed0123a (..)
 =======
 =======
@@ -303,6 +326,8 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -311,7 +336,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -320,6 +345,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,12 +400,19 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+      width: 1178
+      height: 214
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 589, y: 107}
+>>>>>>> parent of ed0123a (..)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,10 +441,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
       x: -589
       y: -107
       width: 1178
       height: 214
+<<<<<<< HEAD
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1178, y: 235}
@@ -443,6 +479,11 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1178, y: 235}
+>>>>>>> parent of ed0123a (..)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -475,6 +516,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bf13c63 (error2)
 =======
@@ -496,12 +538,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
     width: 1179
     height: 635
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 21813
+<<<<<<< HEAD
 >>>>>>> parent of ed0123a (..)
 =======
 =======
@@ -535,6 +580,8 @@ MonoBehaviour:
 >>>>>>> parent of 3678f65 (cube)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -554,6 +601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +678,15 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    width: 1179
+    height: 379
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 21792
+--- !u!114 &5
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -646,6 +703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,6 +742,13 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    width: 342
+    height: 379
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 6}
+>>>>>>> parent of ed0123a (..)
   m_Panes:
   - {fileID: 6}
   m_Selected: 0
@@ -708,6 +773,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +823,12 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    x: 0
+    y: 73
+    width: 341
+    height: 358
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -766,6 +838,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -803,20 +876,23 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: dc5dffff845fffff6e62fffffe64ffffb266ffffb46affff1e6bffff046cfffff66fffff5470ffff7473ffff6278fffffe81ffff4c82ffff9e82ffff2684ffff8889ffffa089ffff1e8cffffc08cffff0c8dffffc08dffff128effff668efffffc8fffff6691fffff892ffff4a93ffff6897ffff709fffff6aa4ffffc8a4ffff0aa5ffff50a5ffff92a5ffffeca5ffff2ea6ffff88a6ffffcea6ffff10a7ffff5aa7ffffd4a7ffff34acffffacb3ffffe4b4ffff08b6ffff56b9ffff12beffff4cbeffff08c0ffff38c0ffff7ac0ffffe2c0ffff2cc2ffff6ec2ffffa2c2ffffd2c2ffff0ac3ffff3ec3ffff6ec3ffffa2c3ffffdac3ffff0cc4ffff40c4ffff56c5ffff9ac5ffffdcc5ffff0ec6ffff24c7ffff68c8ffff16caffff4acaffffc4caffff06ccffff50cdffffe0ceffffb4cfffffe8cfffff20d0ffff50d0ffff7ad0ffff62d1ffff9cd1ffffccd1ffff96d2ffffd0d2ffff08d3ffff40d3ffff74d3ffffacd3ffffdcd3ffff12d4ffff64dcffffa6dcffff28ddffff6addffff44e2ffff8ae2ffffa6e4ffffe8e4ffff2ee5ffffa4e5fffff0e5ffff4ee9ffff90e9ffffd2e9ffff1ceaffffa6eaffff10ebffff92ebffff18ecffff58ecffffceefffff0ef0ffff50f0ffff94f0ffff70f1ffffd4f3ffff62f6ffffcef9ffff2efbfffff8830000c0870000ec870000e8c800004ec900009ae30000d0e300000aee000010ef0000
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+      m_ExpandedIDs: 4c82ffff9e82ffff2684ffff8889ffffa089ffff1e8cffffc08cffff0c8dffffc08dffff128effff668efffffc8fffff6691fffff892ffff4a93ffff6897ffff709fffff6aa4ffffc8a4ffff0aa5ffff50a5ffff92a5ffffeca5ffff2ea6ffff88a6ffffcea6ffff10a7ffff5aa7ffffd4a7ffff34acffffacb3ffffe4b4ffff08b6ffff56b9ffff12beffff4cbeffff08c0ffff38c0ffff7ac0ffffe2c0ffff2cc2ffff6ec2ffffa2c2ffffd2c2ffff0ac3ffff3ec3ffff6ec3ffffa2c3ffffdac3ffff0cc4ffff40c4ffff56c5ffff9ac5ffffdcc5ffff0ec6ffff24c7ffff68c8ffff16caffff4acaffffc4caffff06ccffff50cdffffe0ceffffb4cfffffe8cfffff20d0ffff50d0ffff7ad0ffff62d1ffff9cd1ffffccd1ffff96d2ffffd0d2ffff08d3ffff40d3ffff74d3ffffacd3ffffdcd3ffff12d4ffff64dcffffa6dcffff28ddffff6addffff44e2ffff8ae2ffffa6e4ffffe8e4ffff2ee5ffffa4e5fffff0e5ffff4ee9ffff90e9ffffd2e9ffff1ceaffffa6eaffff10ebffff92ebffff18ecffff58ecffffceefffff0ef0ffff50f0ffff94f0ffff70f1ffffd4f3ffff62f6ffffcef9ffff2efbfffff8830000c0870000ec870000e8c800004ec90000
+>>>>>>> parent of ed0123a (..)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -32258
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -841,6 +917,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,15 +969,18 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
     x: 250
+=======
+    x: 342
+>>>>>>> parent of ed0123a (..)
     y: 0
-    width: 623
-    height: 385
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 9}
+    width: 837
+    height: 379
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 8}
   m_Panes:
+  - {fileID: 8}
   - {fileID: 9}
-  - {fileID: 10}
   m_Selected: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +1026,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bf13c63 (error2)
 =======
@@ -963,10 +1044,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
     x: 342
     y: 73
     width: 835
     height: 358
+<<<<<<< HEAD
 >>>>>>> parent of ed0123a (..)
 =======
 =======
@@ -992,6 +1076,8 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1223,6 +1309,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.12162998, y: -2.764786, z: 0.7669749}
     speed: 2
     m_Value: {x: 0.12162998, y: -2.764786, z: 0.7669749}
@@ -1266,6 +1353,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 6.2023892, y: 3.6518066, z: 145.93874}
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    m_Target: {x: 1.8998593, y: 2.6445029, z: 1.2253587}
+    speed: 2
+    m_Value: {x: 1.8998593, y: 2.6445029, z: 1.2253587}
+>>>>>>> parent of ed0123a (..)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1324,6 +1416,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 4.853913
     speed: 2
     m_Value: 4.853913
@@ -1367,6 +1460,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 6.480504
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    m_Target: 7.425351
+    speed: 2
+    m_Value: 7.425351
+>>>>>>> parent of ed0123a (..)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1479,6 +1577,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bf13c63 (error2)
 =======
@@ -1501,6 +1600,11 @@ MonoBehaviour:
     y: 385
     width: 873
     height: 259
+=======
+    y: 379
+    width: 1179
+    height: 256
+>>>>>>> parent of ed0123a (..)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
@@ -1543,6 +1647,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ed0123a (..)
 =======
 >>>>>>> parent of bf13c63 (error2)
@@ -1562,6 +1667,9 @@ MonoBehaviour:
 =======
 --- !u!114 &12
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+--- !u!114 &11
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1581,6 +1689,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1630,6 +1739,12 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    x: 0
+    y: 452
+    width: 1178
+    height: 235
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1669,6 +1784,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 10950000
     m_LastClickedID: 38160
 =======
@@ -1684,6 +1800,10 @@ MonoBehaviour:
 =======
     m_SelectedIDs: 64600000
     m_LastClickedID: 24676
+=======
+    m_SelectedIDs: cc600000
+    m_LastClickedID: 24780
+>>>>>>> parent of ed0123a (..)
     m_ExpandedIDs: 000000006460000000ca9a3bffffff7f
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
@@ -1777,6 +1897,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 8499ffff
     m_LastClickedInstanceID: -26236
 =======
@@ -1807,6 +1928,10 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 9a0c0000
     m_LastClickedInstanceID: 3226
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+    m_SelectedInstanceIDs: fe81ffff
+    m_LastClickedInstanceID: -32258
+>>>>>>> parent of ed0123a (..)
     m_HadKeyboardFocusLastEvent: 1
 =======
     m_SelectedInstanceIDs: b8a1ffff
@@ -1880,9 +2005,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 449
     width: 1042
     height: 238
+=======
+    y: 452
+    width: 1042
+    height: 235
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1893,7 +2024,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1933,6 +2067,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &14
 >>>>>>> parent of ed0123a (..)
 =======
@@ -1952,6 +2087,9 @@ MonoBehaviour:
 =======
 --- !u!114 &15
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+--- !u!114 &14
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1966,6 +2104,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2020,17 +2159,21 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
     x: 873
+=======
+    x: 1179
+>>>>>>> parent of ed0123a (..)
     y: 0
-    width: 493
-    height: 644
+    width: 187
+    height: 635
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
+  - {fileID: 15}
   - {fileID: 16}
-  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
 --- !u!114 &16
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2047,6 +2190,9 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+--- !u!114 &15
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2074,6 +2220,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bf13c63 (error2)
 =======
@@ -2091,10 +2238,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of ed0123a (..)
     x: 1179
     y: 73
     width: 186
     height: 614
+<<<<<<< HEAD
 >>>>>>> parent of ed0123a (..)
 =======
 =======
@@ -2120,6 +2270,8 @@ MonoBehaviour:
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2130,6 +2282,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2167,12 +2320,16 @@ MonoBehaviour:
 =======
   m_LastInspectedObjectInstanceID: 3226
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+  m_LastInspectedObjectInstanceID: -32258
+>>>>>>> parent of ed0123a (..)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,6 +2363,9 @@ MonoBehaviour:
 =======
 --- !u!114 &17
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+--- !u!114 &16
+>>>>>>> parent of ed0123a (..)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2225,6 +2385,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2261,8 +2422,11 @@ MonoBehaviour:
 =======
 >>>>>>> parent of c20820d (Merge branch 'main' of https://github.com/movavok/Fom)
     x: 1047
+=======
+    x: 1043
+>>>>>>> parent of ed0123a (..)
     y: 73
-    width: 318
+    width: 322
     height: 614
 <<<<<<< HEAD
 <<<<<<< HEAD

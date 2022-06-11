@@ -1406,6 +1406,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   player: {fileID: 560532228}
 =======
@@ -1444,6 +1445,8 @@ MonoBehaviour:
 >>>>>>> parent of bf13c63 (error2)
 =======
 >>>>>>> parent of 62cbdd5 (Merge branch 'main' of https://github.com/movavok/Fom)
+=======
+>>>>>>> parent of ed0123a (..)
 --- !u!1 &560532228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1088256280694182261, guid: c251634231b6f0c4abbeb36f5894633e, type: 3}
