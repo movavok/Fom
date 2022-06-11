@@ -8,7 +8,7 @@ public class MainMenuButton : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
 
