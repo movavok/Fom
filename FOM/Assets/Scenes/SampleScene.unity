@@ -636,6 +636,7 @@ GameObject:
   - component: {fileID: 1229952795}
   - component: {fileID: 1229952794}
   - component: {fileID: 1229952793}
+  - component: {fileID: 1229952800}
   m_Layer: 0
   m_Name: bober
   m_TagString: Untagged
@@ -828,13 +829,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229952792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1149, y: -3.23, z: 0.16658923}
+  m_LocalPosition: {x: -6.23, y: -3.23, z: 0.16658923}
   m_LocalScale: {x: 0.39239988, y: 0.39239988, z: 0.39239988}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1229952800
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229952792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 329a744f53dd46147aff8f7d671033cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1407898751
 GameObject:
   m_ObjectHideFlags: 0
