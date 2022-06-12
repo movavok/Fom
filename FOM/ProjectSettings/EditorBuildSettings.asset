@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TimeLine.unity
     guid: 3114c701b44b5474a818b521e7c9f98a
+  - enabled: 1
+    path: Assets/Scenes/TimeLine2.unity
+    guid: 9bbe43aacedff6c48825f042e7b3d774
   m_configObjects: {}
