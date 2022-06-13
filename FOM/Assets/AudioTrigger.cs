@@ -4,10 +4,22 @@ using UnityEngine;
 
 public class AudioTrigger : MonoBehaviour
 {
-    public AudioSource playSound;
+    public AudioSource musicAudio;
+    private AudioClip clip;
 
-    void OnTriggerEnter(Collider other)
+    private bool isTriggered = false;
+
+    private void Start()
     {
-        playSound.Play();
+        clip = musicAudio.clip;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(isTriggered == false)
+        {
+            isTriggered = true;
+            musicAudio.PlayOneShot(clip);
+        }
     }
 }
