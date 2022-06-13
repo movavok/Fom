@@ -52,6 +52,10 @@ public class Pause_menu : MonoBehaviour
     {
         Debug.Log("Quit");
     }
+    public void GoButton()
+    {
+        SceneManager.LoadScene(1);
+    }
 
 
 }
