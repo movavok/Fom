@@ -17,11 +17,5 @@ public class MainMenuButton : MonoBehaviour
         Application.Quit();
     }
 
-    public void GoButton()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    
-
+   
 }
