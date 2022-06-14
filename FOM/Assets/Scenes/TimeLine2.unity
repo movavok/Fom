@@ -1512,7 +1512,7 @@ PrefabInstance:
     - target: {fileID: 6360632265794869071, guid: 7bc90a57928139b4487be138271708e1, type: 3}
       propertyPath: m_SceneBindings.Array.data[26].key
       value: 
-      objectReference: {fileID: 134762033741261590, guid: 04bb70cd1e1544442b8c5a05641d245c, type: 2}
+      objectReference: {fileID: -6857037464328927082, guid: 04bb70cd1e1544442b8c5a05641d245c, type: 2}
     - target: {fileID: 6360632265794869071, guid: 7bc90a57928139b4487be138271708e1, type: 3}
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
