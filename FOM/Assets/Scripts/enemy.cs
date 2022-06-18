@@ -8,24 +8,30 @@ public class enemy : MonoBehaviour
     public float stoppingDistance; 
     
     private Transform target;
-    
+    SpriteRenderer sre;
     
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        
+        sre = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (target.position.x > transform.position.x)
+        {
+            sre.flipX = true;
+        }
+        else 
+        {
+            sre.flipX = false;
+        }
         if (Vector2.Distance(transform.position, target.position)> stoppingDistance )
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             
         }
-       
         
     }
 }
