@@ -8,7 +8,7 @@ public class enemy : MonoBehaviour
     public float stoppingDistance; 
     
     private Transform target;
-    public Transform player;
+    
     
     void Start()
     {
@@ -19,8 +19,6 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        transform.LookAt(player);
         
         if (Vector2.Distance(transform.position, target.position)> stoppingDistance )
         {
