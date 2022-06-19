@@ -24,6 +24,9 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Physics2D.IgnoreCollision(target.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+
+
         if (target.position.x > transform.position.x)
         {
             sre.flipX = true;
