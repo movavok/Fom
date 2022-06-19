@@ -32,7 +32,7 @@ public class enemy : MonoBehaviour
         {
             sre.flipX = false;
         }
-        if (target.position.y > transform.position.y + 3.2)
+        if (target.position.y > transform.position.y + 4 | target.position.x > transform.position.x + 10 | target.position.x < transform.position.x - 10)
         {
             transform.position = target.position;
             
