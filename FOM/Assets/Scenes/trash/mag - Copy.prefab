@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8595785195624404889}
   - component: {fileID: 3263646840665527561}
   m_Layer: 0
-  m_Name: mag
+  m_Name: mag - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
