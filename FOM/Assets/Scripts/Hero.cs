@@ -6,20 +6,25 @@ public class Hero : MonoBehaviour
 {
     public float speed = 7f;
     public float jumpForce = 5f;
+    public GameObject woodman;
+    public GameObject bober;
     
     Rigidbody2D rb;
     SpriteRenderer sr;
+
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+       
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
 
@@ -29,7 +34,8 @@ public class Hero : MonoBehaviour
 
 
         sr.flipX = movement < 0 ? true : false;
-       
+        Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
+
     }
 }
 
