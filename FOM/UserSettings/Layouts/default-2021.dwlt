@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 601}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 12056
+  controlID: 4176
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1341
+  controlID: 213
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1342
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1343
+  controlID: 23
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -472,23 +472,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1366
-      height: 595
-    m_Scale: {x: 0.77473956, y: 0.77473956}
-    m_Translation: {x: 683, y: 297.5}
+      width: 783
+      height: 332
+    m_Scale: {x: 0.43229166, y: 0.43229166}
+    m_Translation: {x: 391.5, y: 166}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -881.58655
+      x: -905.63855
       y: -384
-      width: 1763.1731
+      width: 1811.2771
       height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.77473956
-  m_LastWindowPixelSize: {x: 1366, y: 616}
+  m_defaultScale: 0.43229166
+  m_LastWindowPixelSize: {x: 783, y: 353}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -527,7 +527,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 04b9ffff4cb9ffff68b9ffffe6baffffc4bcffff36bdffff40bdffff32c1ffff1ec2ffff6ac2ffff86c2ffff04c4ffffe2c5ffff54c6ffff5ec6ffff1addffff3cddffff02dfffff22e1ffffdee2ffff00e5ffff86e6ffffd4e6ffff7ce8ffff02eaffffe4ebffff58ecffff68ecffff50f0ffff2efbffffec970000
+      m_ExpandedIDs: f490ffff4491ffff6091ffffde92ffffbe94ffff3295ffff3c95ffff16a2ffff62a2ffff7ea2fffffca3ffffdca5ffff50a6ffff5aa6ffff1eadffff6aadffff06afffff8cb0ffff6eb2ffffe4b2ffffeeb2ffff08c1ffff28c2ffff6c9b0000bab80000ceb800007cbf00008ebf0000bcbf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -798,9 +798,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.14232099, y: -2.0819423, z: 10.231622}
+    m_Target: {x: -1.8346279, y: -1.3920344, z: 14.26969}
     speed: 2
-    m_Value: {x: -0.1916993, y: -2.1925218, z: 10.237942}
+    m_Value: {x: -1.8346279, y: -1.3920344, z: 14.26969}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,9 +851,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.8263264
+    m_Target: 4.310106
     speed: 2
-    m_Value: 5.053745
+    m_Value: 4.310106
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1017,22 +1017,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Documents\Fom\FOM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 3a640000
-    m_LastClickedID: 25658
-    m_ExpandedIDs: 00000000c063000000ca9a3bffffff7f
+    m_SelectedIDs: c89a0000
+    m_LastClickedID: 39624
+    m_ExpandedIDs: 00000000c89a0000d89a0000d09b0000e49b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1060,7 +1060,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c063000000ca9a3bffffff7f
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1112,7 +1112,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 14}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
