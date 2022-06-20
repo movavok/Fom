@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SettingsMenu : MonoBehaviour
+public class ExitButton : MonoBehaviour
 {
-    public void ExitMenu()
+    public void settings()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
 }
