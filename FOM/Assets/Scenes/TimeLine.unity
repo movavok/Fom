@@ -522,6 +522,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4511741166042702981, guid: 90fb783d1ca9dbd4e88ac2c0457cebee, type: 3}
+      propertyPath: woodman
+      value: 
+      objectReference: {fileID: 4461771904279165018}
     - target: {fileID: 4511741166042702983, guid: 90fb783d1ca9dbd4e88ac2c0457cebee, type: 3}
       propertyPath: m_RootOrder
       value: 1
