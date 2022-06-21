@@ -1755,6 +1755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca42af9a2de09ae4497e01802c4aa350, type: 3}
+--- !u!1 &1475871505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6405505189080137244, guid: ca42af9a2de09ae4497e01802c4aa350, type: 3}
+  m_PrefabInstance: {fileID: 1475871504}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1530630345 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1670634122573495255, guid: f0dc1e40f1566d44488df99cbded8bb9, type: 3}
@@ -1922,6 +1927,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1985994612114708647, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
+      propertyPath: bober
+      value: 
+      objectReference: {fileID: 1475871505}
+    - target: {fileID: 1985994612114708647, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
+      propertyPath: woodman
+      value: 
+      objectReference: {fileID: 1737375682}
     - target: {fileID: 1985994612114708647, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2256,6 +2269,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
+--- !u!1 &1251203400910016445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6586860555000904760, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
+  m_PrefabInstance: {fileID: 1251203400910016444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1251203400910016446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251203400910016445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &1670634123529038622
 PrefabInstance:
   m_ObjectHideFlags: 0
