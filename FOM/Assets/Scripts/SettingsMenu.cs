@@ -7,6 +7,6 @@ public class SettingsMenu : MonoBehaviour
 {
     public void ExitMenu()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }
