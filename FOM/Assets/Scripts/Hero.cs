@@ -9,8 +9,11 @@ public class Hero : MonoBehaviour
     public GameObject woodman;
     public GameObject bober;
     
+    Animator animator;
     Rigidbody2D rb;
     SpriteRenderer sr;
+
+    bool isAttacking = false;
 
     
     // Start is called before the first frame update
@@ -18,13 +21,26 @@ public class Hero : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
+        {
+            isAttacking = true;
+
+            animator.Play("wdm attack");
+
+            Invoke("ResetAttack", .5f);
+
+        }
        
+        
+        
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
 
@@ -36,6 +52,11 @@ public class Hero : MonoBehaviour
         sr.flipX = movement < 0 ? true : false;
         Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
 
+    }
+
+    void ResetAttack()
+    {
+        isAttacking = false;
     }
 }
 
