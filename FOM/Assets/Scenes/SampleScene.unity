@@ -2276,81 +2276,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.75, y: -1.44}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &889905309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 889905310}
-  - component: {fileID: 889905311}
-  - component: {fileID: 889905312}
-  m_Layer: 0
-  m_Name: AttackHitBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &889905310
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889905309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1728867314}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &889905311
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889905309}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.06255052, y: -0.21936549}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.085800365, y: 0.1282272}
-  m_EdgeRadius: 0
---- !u!114 &889905312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889905309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84ea20973a83194da78c36cd443c863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-  jumpForce: 5
-  woodman: {fileID: 1985994612114708650, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
-  bober: {fileID: 6405505189080137244, guid: ca42af9a2de09ae4497e01802c4aa350, type: 3}
 --- !u!1 &944121148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6586860555000904760, guid: 51fc0e32cf5549d49a7d524a65e79082, type: 3}
@@ -4002,11 +3927,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
---- !u!4 &1728867314 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1985994612114708645, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
-  m_PrefabInstance: {fileID: 1728867313}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1734126773
 GameObject:
   m_ObjectHideFlags: 0
