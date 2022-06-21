@@ -54,6 +54,24 @@ public class Hero : MonoBehaviour
 
     }
 
+    private void FixedUpdate()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+            animator.Play("step");
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            animator.Play("step");
+        }
+        else
+        {
+            animator.Play("New Animation");
+        }
+    }
+
     void ResetAttack()
     {
         isAttacking = false;
