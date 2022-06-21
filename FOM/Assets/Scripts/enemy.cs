@@ -5,8 +5,9 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
     public float speed;
-    public float stoppingDistance; 
-
+    public float stoppingDistance;
+    public GameObject woodman;
+    public GameObject bober;
     private Transform target;
     SpriteRenderer sre;
 
@@ -24,8 +25,8 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Physics2D.IgnoreCollision(target.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
+        Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
 
         if (target.position.x > transform.position.x)
         {
