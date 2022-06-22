@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public float speed = 7f;
+    public float speed = 3f;
     public float jumpForce = 5f;
     public GameObject woodman;
     public GameObject bober;
-    
+
     Animator animator;
     Rigidbody2D rb;
     SpriteRenderer sr;
 
     bool isAttacking = false;
 
-    
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        
+
 
     }
 
@@ -33,14 +33,14 @@ public class Hero : MonoBehaviour
         {
             isAttacking = true;
 
-            animator.Play("wdm attack");
+            animator.Play("wdmAttack");
 
             Invoke("ResetAttack", .5f);
 
         }
-       
-        
-        
+
+
+
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
 
@@ -68,7 +68,7 @@ public class Hero : MonoBehaviour
         }
         else
         {
-            animator.Play("New Animation");
+            animator.Play("NewAnimation");
         }
     }
 
@@ -77,4 +77,3 @@ public class Hero : MonoBehaviour
         isAttacking = false;
     }
 }
-
