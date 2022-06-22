@@ -54,6 +54,32 @@ public class Hero : MonoBehaviour
 
     }
 
+    private void FixedUpdate()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+            animator.Play("wdmAttack");
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            animator.Play("wdmAttack");
+        }
+        else
+        {
+            animator.Play("NewAnimation");
+        }
+        if(Input.GetKey(KeyCode.W)&& Mathf.Abs(rb.velocity.y) < 0.05f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            animator.Play("jump");
+            
+        }
+        
+    }
+
     void ResetAttack()
     {
         isAttacking = false;
