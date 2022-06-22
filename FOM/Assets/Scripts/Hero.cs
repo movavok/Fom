@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public float speed = 3f;
+    public float speed = 7f;
     public float jumpForce = 5f;
     public GameObject woodman;
     public GameObject bober;
@@ -52,24 +52,6 @@ public class Hero : MonoBehaviour
         sr.flipX = movement < 0 ? true : false;
         Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
 
-    }
-
-    private void FixedUpdate()
-    {
-        if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-            animator.Play("step");
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-            animator.Play("step");
-        }
-        else
-        {
-            animator.Play("NewAnimation");
-        }
     }
 
     void ResetAttack()
