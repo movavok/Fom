@@ -31,11 +31,14 @@ public class Hero : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && !isAttacking)
         {
+            rb.velocity = Vector3.zero;
+
             isAttacking = true;
 
             animator.Play("wdmAttack");
 
             Invoke("ResetAttack", .5f);
+
 
         }
 
@@ -48,7 +51,7 @@ public class Hero : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.05f)
         rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
 
-
+        transform.position += transform.forward * speed * Time.deltaTime;
         sr.flipX = movement < 0 ? true : false;
         Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
 
@@ -59,12 +62,12 @@ public class Hero : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
-            animator.Play("wdmAttack");
+            animator.Play("step");
         }
         else if (Input.GetKey(KeyCode.A))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
-            animator.Play("wdmAttack");
+            animator.Play("step");
         }
         else
         {
