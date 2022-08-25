@@ -1,65 +1,87 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
-    [SerializeField] private int lives = 5;
-    [SerializeField] private float jumpForce = 7f;
-    private bool isGrounded = false;
+    public float speed = 7f;
+    public float jumpForce = 5f;
+    public GameObject woodman;
+    public GameObject bober;
 
-    private Rigidbody2D rb;
-    private Animator anim;
-    private SpriteRenderer sprite;
+    Animator animator;
+    Rigidbody2D rb;
+    SpriteRenderer sr;
 
-    private States State
-    {
-        get { return (States)anim.GetInteger("state"); }
-        set { anim.SetInteger("state", (int)value); }
-    }
-    private void Awake()
+    bool isAttacking = false;
+
+
+    // Start is called before the first frame update
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+
+
     }
-    private void Run()
+
+    // Update is called once per frame
+    void Update()
     {
-        if (isGrounded) State = States.Run;
-        Vector3 dir = transform.right * Input.GetAxis("Horizontal");
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
-        sprite.flipX = dir.x < 0.0f;
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
+        {
+            isAttacking = true;
+
+            animator.Play("wdmAttack");
+
+            Invoke("ResetAttack", .5f);
+
+
+        }
+
+
+
+        float movement = Input.GetAxis("Horizontal");
+        transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
+
+
+        if(Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.05f)
+        rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+
+
+        transform.position += transform.forward * speed * Time.deltaTime;
+        sr.flipX = movement < 0 ? true : false;
+        Physics2D.IgnoreCollision(woodman.GetComponent<Collider2D>(), bober.GetComponent<Collider2D>());
+
     }
+
     private void FixedUpdate()
     {
-        CheckGround();
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+            animator.Play("step");
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            animator.Play("step");
+        }
+        else
+        {
+            animator.Play("NewAnimation");
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            animator.Play("wdmAttack");
+        }
+        
     }
-    private void Update()
-    {
-        if (isGrounded) State = States.Idle;
-        if (Input.GetButton("Horizontal"))
-            Run();
-        if (isGrounded && Input.GetButtonDown("Jump"))
-            Jump();
-    }
-    private void Jump()
-    {
-        rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-    }
-    private void CheckGround()
-    {
-        Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
-        isGrounded = collider.Length > 1;
 
-        if (!isGrounded) State = States.Jump;
+    void ResetAttack()
+    {
+        isAttacking = false;
     }
 }
-
-public enum States
-{
-    Idle,
-    Run,
-    Jump
-}
-
 
