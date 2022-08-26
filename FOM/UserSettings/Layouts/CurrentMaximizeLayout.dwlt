@@ -24,7 +24,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 5925
+=======
+  controlID: 4671
+>>>>>>> parent of 85bb329 (на просмотр)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,10 +49,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 290.4
     y: 73.6
     width: 363.6
     height: 410.2
+=======
+    x: 363
+    y: 73
+    width: 1101
+    height: 538
+>>>>>>> parent of 85bb329 (на просмотр)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -141,7 +152,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 5852
+=======
+  controlID: 4613
+>>>>>>> parent of 85bb329 (на просмотр)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +182,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 5853
+=======
+  controlID: 4584
+>>>>>>> parent of 85bb329 (на просмотр)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +246,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: b4e8fffffaf3ffffb6f8ffff2cfbffffda980000
+=======
+      m_ExpandedIDs: 2cfbffff
+>>>>>>> parent of 85bb329 (на просмотр)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -552,9 +575,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
     speed: 2
     m_Value: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
+=======
+    m_Target: {x: -1.6940807, y: -2.960516, z: 0.17528032}
+    speed: 2
+    m_Value: {x: -1.6940807, y: -2.960516, z: 0.17528032}
+>>>>>>> parent of 85bb329 (на просмотр)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -605,9 +634,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 4.552923
     speed: 2
     m_Value: 4.552923
+=======
+    m_Target: 3.495164
+    speed: 2
+    m_Value: 3.495164
+>>>>>>> parent of 85bb329 (на просмотр)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -750,10 +785,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 656
     y: 73.6
     width: 514.80005
     height: 410.2
+=======
+    x: 523
+    y: 136
+    width: 1101
+    height: 538
+>>>>>>> parent of 85bb329 (на просмотр)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -847,10 +889,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 20890000
     m_LastClickedID: 35104
     m_ExpandedIDs: 00000000526f0000606f000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 8c6f0000
+    m_LastClickedID: 28556
+    m_ExpandedIDs: 00000000346f0000446f00008c6f000000ca9a3bffffff7f
+>>>>>>> parent of 85bb329 (на просмотр)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -878,7 +927,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000526f000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000346f000000ca9a3bffffff7f
+>>>>>>> parent of 85bb329 (на просмотр)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -903,9 +956,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: da980000
     m_LastClickedInstanceID: 39130
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_SelectedInstanceIDs: ac6e0000
+    m_LastClickedInstanceID: 28332
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> parent of 85bb329 (на просмотр)
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1022,7 +1081,11 @@ MonoBehaviour:
     m_CachedPref: 292
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 39130
+=======
+  m_LastInspectedObjectInstanceID: 28332
+>>>>>>> parent of 85bb329 (на просмотр)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
