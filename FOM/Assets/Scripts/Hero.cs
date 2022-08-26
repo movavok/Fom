@@ -32,18 +32,6 @@ public class Hero : MonoBehaviour
     void FixedUpdate()
     {
         CheckGround();
-        
-        if (Input.GetButtonDown("Horizontal"))
-        {
-            if (speed.x < 0)
-            {
-                sprite.flipX = true;
-            }
-            else
-            {
-                sprite.flipX = false;
-            }
-        }
     }
     void Update()
     {

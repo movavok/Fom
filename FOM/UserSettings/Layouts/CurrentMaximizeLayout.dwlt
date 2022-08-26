@@ -19,24 +19,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 947
+    width: 1536
+    height: 730.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 5925
-=======
-  controlID: 4671
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-  controlID: 4671
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-  controlID: 5925
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+  controlID: 1280
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,33 +41,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
-    x: 290.4
-    y: 73.6
-    width: 363.6
+    x: 289.8
+    y: 19
+    width: 877.2
     height: 410.2
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-    x: 363
-    y: 73
-    width: 1101
-    height: 538
-<<<<<<< HEAD
->>>>>>> parent of 85bb329 (на просмотр)
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -105,10 +74,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -117,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -126,23 +95,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1101
-      height: 517
-    m_Scale: {x: 0.47870374, y: 0.4787037}
-    m_Translation: {x: 550.5, y: 258.5}
+      width: 877.2
+      height: 389.2
+    m_Scale: {x: 0.45046297, y: 0.45046297}
+    m_Translation: {x: 438.6, y: 194.6}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1149.9806
-      y: -540
-      width: 2299.9612
-      height: 1080
+      x: -973.665
+      y: -432
+      width: 1947.33
+      height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.4787037
-  m_LastWindowPixelSize: {x: 1101, y: 538}
+  m_defaultScale: 0.45046297
+  m_LastWindowPixelSize: {x: 1096.5, y: 512.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -167,24 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
-    height: 947
+    width: 1168
+    height: 730.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 5852
-=======
-  controlID: 4613
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-  controlID: 4613
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-  controlID: 5852
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+  controlID: 1281
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,24 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
-    height: 559
+    width: 1168
+    height: 431.2
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 5853
-=======
-  controlID: 4584
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-  controlID: 4584
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-  controlID: 5853
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+  controlID: 1282
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,8 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 363
-    height: 559
+    width: 288.8
+    height: 431.2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -264,14 +209,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
-    width: 362
-    height: 538
+    y: 73.6
+    width: 287.8
+    height: 410.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -281,19 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ExpandedIDs: b4e8fffffaf3ffffb6f8ffff2cfbffffda980000
-=======
-      m_ExpandedIDs: 2cfbffff
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-      m_ExpandedIDs: 2cfbffff
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-      m_ExpandedIDs: b4e8fffffaf3ffffb6f8ffff2cfbffffda980000
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+      m_ExpandedIDs: 34dfffffb0e0ffff34e1ffff86e3ffff76e5ffff04e8ffff7ce8ffffb2e8ffffa2eafffff0ecffff28edffff7cefffffb2effffff2f2ffffe2f4ffff30f7ffffa8f7ffff26f8ffff5cf8ffff8cf8ffff0af9ffff86f9ffffcef9fffffef9ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -332,10 +265,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 363
+    x: 288.8
     y: 0
-    width: 1103
-    height: 559
+    width: 879.2
+    height: 431.2
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -345,7 +278,7 @@ MonoBehaviour:
   - {fileID: 9}
   - {fileID: 10}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,14 +295,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 363
-    y: 73
-    width: 1101
-    height: 538
+    x: 288.80002
+    y: 73.6
+    width: 877.2
+    height: 410.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -379,8 +312,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -593,27 +526,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
+    m_Target: {x: 5.7164197, y: 0.38343388, z: 0.08716239}
     speed: 2
-    m_Value: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
-=======
-    m_Target: {x: -1.6940807, y: -2.960516, z: 0.17528032}
-    speed: 2
-    m_Value: {x: -1.6940807, y: -2.960516, z: 0.17528032}
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-    m_Target: {x: -1.6940807, y: -2.960516, z: 0.17528032}
-    speed: 2
-    m_Value: {x: -1.6940807, y: -2.960516, z: 0.17528032}
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-    m_Target: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
-    speed: 2
-    m_Value: {x: 3.7398684, y: 0.43039155, z: 0.117495924}
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+    m_Value: {x: 5.7164197, y: 0.38343388, z: 0.08716239}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -664,27 +579,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 4.552923
+    m_Target: 7.586273
     speed: 2
-    m_Value: 4.552923
-=======
-    m_Target: 3.495164
-    speed: 2
-    m_Value: 3.495164
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-    m_Target: 3.495164
-    speed: 2
-    m_Value: 3.495164
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-    m_Target: 4.552923
-    speed: 2
-    m_Value: 4.552923
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+    m_Value: 7.586273
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -725,14 +622,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 363
-    y: 73
-    width: 1101
-    height: 538
+    x: 288.80002
+    y: 73.6
+    width: 877.2
+    height: 410.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -823,33 +720,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Timeline
-    m_Image: {fileID: -9173288242387172643, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5401195905404635996, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
-    x: 656
-    y: 73.6
-    width: 514.80005
-    height: 410.2
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
     x: 523
     y: 136
     width: 1101
     height: 538
-<<<<<<< HEAD
->>>>>>> parent of 85bb329 (на просмотр)
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -879,11 +757,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 559
-    width: 1466
-    height: 388
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+    y: 431.2
+    width: 1168
+    height: 299.59998
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -906,14 +784,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 632
-    width: 1465
-    height: 367
+    y: 504.80002
+    width: 1167
+    height: 278.59998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -939,33 +817,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Materials/woodman
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\nikit\Documents\Fom\FOM
+  m_LastProjectPath: C:\Users\pkuri\Documents\GitHub\Fom\FOM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 20890000
-    m_LastClickedID: 35104
-    m_ExpandedIDs: 00000000526f0000606f000000ca9a3bffffff7f
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 8c6f0000
-    m_LastClickedID: 28556
-    m_ExpandedIDs: 00000000346f0000446f00008c6f000000ca9a3bffffff7f
-<<<<<<< HEAD
->>>>>>> parent of 85bb329 (на просмотр)
-=======
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+    m_SelectedIDs: 389e0000
+    m_LastClickedID: 40504
+    m_ExpandedIDs: 00000000d06c0000b06e0000b26e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -981,7 +840,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -993,19 +852,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000526f000000ca9a3bffffff7f
-=======
-    m_ExpandedIDs: 00000000346f000000ca9a3bffffff7f
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-    m_ExpandedIDs: 00000000346f000000ca9a3bffffff7f
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-    m_ExpandedIDs: 00000000526f000000ca9a3bffffff7f
->>>>>>> parent of fdf3446 (Revert "на просмотр")
+    m_ExpandedIDs: 00000000d06c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1030,27 +877,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: da980000
-    m_LastClickedInstanceID: 39130
-    m_HadKeyboardFocusLastEvent: 0
-=======
-    m_SelectedInstanceIDs: ac6e0000
-    m_LastClickedInstanceID: 28332
+    m_SelectedInstanceIDs: 6c840000
+    m_LastClickedInstanceID: 33900
     m_HadKeyboardFocusLastEvent: 1
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-    m_SelectedInstanceIDs: ac6e0000
-    m_LastClickedInstanceID: 28332
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-    m_SelectedInstanceIDs: da980000
-    m_LastClickedInstanceID: 39130
-    m_HadKeyboardFocusLastEvent: 0
->>>>>>> parent of fdf3446 (Revert "на просмотр")
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1095,14 +924,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 632
-    width: 1465
-    height: 367
+    y: 504.80002
+    width: 1167
+    height: 278.59998
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1122,12 +951,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1466
+    x: 1168
     y: 0
-    width: 454
-    height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 368
+    height: 730.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -1149,14 +978,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
-    y: 73
-    width: 453
-    height: 926
+    x: 1168
+    y: 73.6
+    width: 367
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1167,20 +996,8 @@ MonoBehaviour:
     m_CachedPref: 292
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastInspectedObjectInstanceID: 39130
-=======
-  m_LastInspectedObjectInstanceID: 28332
->>>>>>> parent of 85bb329 (на просмотр)
-=======
-  m_LastInspectedObjectInstanceID: 28332
->>>>>>> parent of 0076c62 (подправил код и коллайдер)
-=======
-  m_LastInspectedObjectInstanceID: 39130
->>>>>>> parent of fdf3446 (Revert "на просмотр")
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 33900
+  m_LastVerticalScrollValue: 785.6001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
