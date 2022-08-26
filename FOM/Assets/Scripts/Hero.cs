@@ -11,7 +11,6 @@ public class Hero : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sprite;
-
     private States State
     {
         get { return (States)anim.GetInteger("state"); }
@@ -28,13 +27,24 @@ public class Hero : MonoBehaviour
         if (isGrounded) State = States.Run;
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
-        sprite.flipX = dir.x < 0.0f;
+        
     }
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         CheckGround();
+        if (Input.GetButton("Horizontal"))
+        {
+            if (speed < 0)
+            {
+                sprite.flipX = true;
+            }
+            else
+            {
+                sprite.flipX = false;
+            }
+        }
     }
-    private void Update()
+    void Update()
     {
         if (isGrounded) State = States.Idle;
         if (Input.GetButton("Horizontal"))
@@ -42,11 +52,11 @@ public class Hero : MonoBehaviour
         if (isGrounded && Input.GetButtonDown("Jump"))
             Jump();
     }
-    private void Jump()
+    void Jump()
     {
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
     }
-    private void CheckGround()
+    void CheckGround()
     {
         Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
         isGrounded = collider.Length > 1;
