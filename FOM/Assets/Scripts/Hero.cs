@@ -12,9 +12,13 @@ public class Hero : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sprite;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of 85bb329 (на просмотр)
+=======
+
+>>>>>>> parent of 0076c62 (подправил код и коллайдер)
     private States State
     {
         get { return (States)anim.GetInteger("state"); }
@@ -32,24 +36,17 @@ public class Hero : MonoBehaviour
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
         transform.position = Vector3.MoveTowards(transform.position, transform.position + dir, speed * Time.deltaTime);
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+        sprite.flipX = dir.x < 0.0f;
+>>>>>>> parent of 0076c62 (подправил код и коллайдер)
     }
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         CheckGround();
-        if (Input.GetButton("Horizontal"))
-        {
-            if (speed < 0)
-            {
-                sprite.flipX = true;
-            }
-            else
-            {
-                sprite.flipX = false;
-            }
-        }
     }
-    void Update()
+    private void Update()
     {
 =======
         sprite.flipX = dir.x < 0.0f;
@@ -68,6 +65,7 @@ public class Hero : MonoBehaviour
             Jump();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     void Jump()
     {
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
@@ -80,6 +78,13 @@ public class Hero : MonoBehaviour
     }
     private void CheckGround()
 >>>>>>> parent of 85bb329 (на просмотр)
+=======
+    private void Jump()
+    {
+        rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+    }
+    private void CheckGround()
+>>>>>>> parent of 0076c62 (подправил код и коллайдер)
     {
         Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
         isGrounded = collider.Length > 1;
