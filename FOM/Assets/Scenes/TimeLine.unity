@@ -1937,6 +1937,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1475871505}
     - target: {fileID: 1985994612114708647, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1985994612114708647, guid: 3aea73c61ef5d644ca5bfe0a4fcc7df0, type: 3}
       propertyPath: woodman
       value: 
       objectReference: {fileID: 1737375682}

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4865
+  controlID: 9656
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 4866
+  controlID: 9657
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 4831
+  controlID: 9658
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 34dfffffb0e0ffff34e1ffff86e3ffff76e5ffff04e8ffff7ce8ffffb2e8ffffa2eafffff0ecffff28edffff7cefffffb2effffff2f2ffffe2f4ffff30f7ffffa8f7ffff26f8ffff5cf8ffff8cf8ffff0af9ffff86f9ffffcef9fffffef9ffff14fbffff
+      m_ExpandedIDs: 4aaaffff1eafffff34dfffffb0e0ffff34e1ffff86e3ffff76e5ffff04e8ffff7ce8ffffb2e8ffffa2eafffff0ecffff28edffff7cefffffb2effffff2f2ffffe2f4ffff30f7ffffa8f7ffff26f8ffff5cf8ffff8cf8ffff0af9ffff86f9ffffcef9fffffef9ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -640,14 +640,14 @@ MonoBehaviour:
     - {fileID: 4526287309001441509, guid: f565a318df2dc7e47a64b0d80e369edc, type: 2}
     - {fileID: 2907212639316825431, guid: f7bc8ebf62d0cbb4ca2601dd3c5d9641, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.74669427
+    - e00: 0.6913348
       e01: 0
       e02: 0
-      e03: 298.20593
+      e03: 272.81076
       e10: 0
-      e11: 0.74669427
+      e11: 0.6913348
       e12: 0
-      e13: -6.359894
+      e13: 44.009033
       e20: 0
       e21: 0
       e22: 1
@@ -760,8 +760,8 @@ MonoBehaviour:
     y: 431.2
     width: 1168
     height: 299.59998
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -809,22 +809,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/woodman
+    - Assets/Materials/woodman/jump
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/woodman
+  - Assets/Materials/woodman/jump
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\pkuri\Documents\GitHub\Fom\FOM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 389e0000
-    m_LastClickedID: 40504
-    m_ExpandedIDs: 00000000d06c0000b06e000000ca9a3bffffff7f
+    m_SelectedIDs: dc960000
+    m_LastClickedID: 38620
+    m_ExpandedIDs: 00000000d06c0000b06e0000389e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -877,9 +877,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 10c6ffff
-    m_LastClickedInstanceID: -14832
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 48a1ffff
+    m_LastClickedInstanceID: -24248
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
     m_CachedPref: 292
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -14832
+  m_LastInspectedObjectInstanceID: -24248
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
